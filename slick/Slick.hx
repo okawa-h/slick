@@ -54,7 +54,7 @@ typedef Settings = {
 	?zIndex: Int
 }
 
-@:enum abstract Events(String) from String to String{
+@:enum abstract Events(String) from String to String {
 	var afterChange = 'afterChange';
 	var beforeChange = 'beforeChange';
 	var breakpoint = 'breakpoint';
@@ -68,7 +68,7 @@ typedef Settings = {
 	var lazyLoadError = 'lazyLoadError';
 }
 
-@:enum abstract Methods(String) from String to String{
+@:enum abstract Methods(String) from String to String {
 	var slickCurrentSlide = 'slickCurrentSlide';
 	var slickGoTo = 'slickGoTo';
 	var slickNext = 'slickNext';
